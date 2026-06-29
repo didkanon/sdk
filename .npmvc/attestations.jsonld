@@ -1,0 +1,43 @@
+{
+  "schema": "https://npmvc.com/schemas/attestation-bundle/v1",
+  "package": {
+    "name": "@ajna-inc/kanon-sdk",
+    "version": "0.1.6"
+  },
+  "bundledAt": "2026-06-18T07:55:21.864Z",
+  "envelopes": [
+    {
+      "payloadType": "application/vc+json",
+      "payload": "eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvbnMvY3JlZGVudGlhbHMvdjIiLCJodHRwczovL25wbXZjLmNvbS9zY2hlbWFzL3N1cHBseWNoYWluL3YxIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImJ1aWxkQ29tbWFuZCI6InRzdXAiLCJidWlsZGVyIjp7ImlkIjoiZGlkOmtleTp6Nk1raEo1WUJTZEJMSEhKYmppNDVraUpuUmRMVURQdVRWaTdkUDg0TWpTdUV1Y28iLCJraW5kIjoibG9jYWwifSwiaWQiOiJwa2c6bnBtL0Bham5hLWluYy9rYW5vbi1zZGtAMC4xLjYiLCJyZXByb2R1Y2libGUiOmZhbHNlLCJzbHNhTGV2ZWwiOjIsInNvdXJjZVJlcG8iOnsiY29tbWl0IjoiNGFhZTUzYjAxZmMwYzFhYzM2MzgyMWNiYmM0YjA1MDk5ZjIxYmRiNiIsInR5cGUiOiJnaXQiLCJ1cmwiOiJodHRwczovL2dpdGh1Yi5jb20vYWpuYS1pbmMva2Fub24uZ2l0In0sInRhcmJhbGwiOnsiZGlnZXN0Ijp7InNoYTI1Ni10cmVlLXYxIjoiNDE0NzQ2MTYzZGFmYmI0NzdmMDI3MDUwYWUwYzI4NWI0OGMyM2Q3OWQwZGU1OTAyY2VmN2UxODkyNGI4OTUxMSJ9LCJuYW1lIjoiQGFqbmEtaW5jL2thbm9uLXNkayIsInZlcnNpb24iOiIwLjEuNiJ9LCJ0b29sY2hhaW4iOnsibm9kZSI6IjIwLjE5LjUiLCJucG0iOiIxMC44LjIifX0sImlkIjoidXJuOnV1aWQ6NWM4ZTBhYmMtZTVkNC00MTYzLTk0YzktNjcyZGMzMzg3NTg3IiwiaXNzdWVyIjoiZGlkOmtleTp6Nk1raEo1WUJTZEJMSEhKYmppNDVraUpuUmRMVURQdVRWaTdkUDg0TWpTdUV1Y28iLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiUHJvdmVuYW5jZUNyZWRlbnRpYWwiXSwidmFsaWRGcm9tIjoiMjAyNi0wNi0xOFQwNzo1NToyMS44NDNaIn0=",
+      "signatures": [
+        {
+          "keyid": "did:key:z6MkhJ5YBSdBLHHJbji45kiJnRdLUDPuTVi7dP84MjSuEuco#z6MkhJ5YBSdBLHHJbji45kiJnRdLUDPuTVi7dP84MjSuEuco",
+          "alg": "Ed25519",
+          "sig": "zxnXOKqVqg8vCCSZKlQFVa6yTqOOKRasSnv8/UiW9xx/OPE1HEo82qeqagKSvEcNMtgBejiFnY3cAcpO82IaCw=="
+        }
+      ]
+    },
+    {
+      "payloadType": "application/vc+json",
+      "payload": "eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvbnMvY3JlZGVudGlhbHMvdjIiLCJodHRwczovL25wbXZjLmNvbS9zY2hlbWFzL3N1cHBseWNoYWluL3YxIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImRlY2xhcmVkU2NyaXB0cyI6WyJidWlsZCIsImNsZWFuIiwidGVzdCIsInR5cGVjaGVjayIsInByZXB1Ymxpc2hPbmx5IiwicHJlcGFjayJdLCJpZCI6InBrZzpucG0vQGFqbmEtaW5jL2thbm9uLXNka0AwLjEuNiIsInBvc3RJbnN0YWxsUG9saWN5IjoiZm9yYmlkZGVuIiwidGFyYmFsbCI6eyJkaWdlc3QiOnsic2hhMjU2LXRyZWUtdjEiOiI0MTQ3NDYxNjNkYWZiYjQ3N2YwMjcwNTBhZTBjMjg1YjQ4YzIzZDc5ZDBkZTU5MDJjZWY3ZTE4OTI0Yjg5NTExIn0sIm5hbWUiOiJAYWpuYS1pbmMva2Fub24tc2RrIiwidmVyc2lvbiI6IjAuMS42In0sIndoaXRlbGlzdGVkU2NyaXB0cyI6W119LCJpZCI6InVybjp1dWlkOjcyMDJjOGFhLTI2YjEtNDk0ZC1iZWU4LWM5Yzk1OTg3YmI0MiIsImlzc3VlciI6ImRpZDprZXk6ejZNa2hKNVlCU2RCTEhISmJqaTQ1a2lKblJkTFVEUHVUVmk3ZFA4NE1qU3VFdWNvIiwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIkxpZmVjeWNsZVBvbGljeUNyZWRlbnRpYWwiXSwidmFsaWRGcm9tIjoiMjAyNi0wNi0xOFQwNzo1NToyMS44NjJaIn0=",
+      "signatures": [
+        {
+          "keyid": "did:key:z6MkhJ5YBSdBLHHJbji45kiJnRdLUDPuTVi7dP84MjSuEuco#z6MkhJ5YBSdBLHHJbji45kiJnRdLUDPuTVi7dP84MjSuEuco",
+          "alg": "Ed25519",
+          "sig": "zenjhm7qiZOD68nGJLp+i0gIp8cBBhkrnwZfu0BLHBZqTCQQjFdRfDGenjsJygDkZ+zNiWBGbFNbU48rSepGBA=="
+        }
+      ]
+    },
+    {
+      "payloadType": "application/vc+json",
+      "payload": "eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvbnMvY3JlZGVudGlhbHMvdjIiLCJodHRwczovL25wbXZjLmNvbS9zY2hlbWFzL3N1cHBseWNoYWluL3YxIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImZvcm1hdCI6ImN5Y2xvbmVkeC0xLjYiLCJpZCI6InBrZzpucG0vQGFqbmEtaW5jL2thbm9uLXNka0AwLjEuNiIsInNib21EaWdlc3QiOnsiYWxnIjoic2hhMjU2IiwiaGV4IjoiMmQwNGJmYWI5MTE2NWYxZjA3N2UzYzY5Yjg3Nzc1NmZmZThmMzA1NTg4MjMwMTc0YThiMTk4NTdkMGVhY2IwMSJ9LCJzYm9tVXJsIjoiLi8ubnBtdmMvc2JvbS5jZHguanNvbiIsInRhcmJhbGwiOnsiZGlnZXN0Ijp7InNoYTI1Ni10cmVlLXYxIjoiNDE0NzQ2MTYzZGFmYmI0NzdmMDI3MDUwYWUwYzI4NWI0OGMyM2Q3OWQwZGU1OTAyY2VmN2UxODkyNGI4OTUxMSJ9LCJuYW1lIjoiQGFqbmEtaW5jL2thbm9uLXNkayIsInZlcnNpb24iOiIwLjEuNiJ9fSwiaWQiOiJ1cm46dXVpZDo4ODY5OTk0OS1kYWIwLTQyMDMtYjhiZi1jNzJjMjZkODlhNzgiLCJpc3N1ZXIiOiJkaWQ6a2V5Ono2TWtoSjVZQlNkQkxISEpiamk0NWtpSm5SZExVRFB1VFZpN2RQODRNalN1RXVjbyIsInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiLCJTYm9tQ3JlZGVudGlhbCJdLCJ2YWxpZEZyb20iOiIyMDI2LTA2LTE4VDA3OjU1OjIxLjg2M1oifQ==",
+      "signatures": [
+        {
+          "keyid": "did:key:z6MkhJ5YBSdBLHHJbji45kiJnRdLUDPuTVi7dP84MjSuEuco#z6MkhJ5YBSdBLHHJbji45kiJnRdLUDPuTVi7dP84MjSuEuco",
+          "alg": "Ed25519",
+          "sig": "V4bxSkQag56YSkj4Y5b9rMsoCVGoehgqmsI5SlMiha/4UsCZtaZxz3j9FTUXafqljVeizdRhstVRyPE/vPwUCA=="
+        }
+      ]
+    }
+  ]
+}

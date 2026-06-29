@@ -1,0 +1,152 @@
+{
+  "name": "@ajna-inc/kanon-sdk",
+  "version": "0.1.10",
+  "description": "TypeScript SDK for the Kanon AnonCreds VDR on any EVM chain. Mode A (status registry) + Mode B (Groth16 ZK).",
+  "license": "Apache-2.0",
+  "author": "Ajna Inc",
+  "homepage": "https://github.com/ajna-inc/kanon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajna-inc/kanon.git",
+    "directory": "kanonv2/sdk"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./core": {
+      "import": {
+        "types": "./dist/core/index.d.ts",
+        "default": "./dist/core/index.js"
+      },
+      "require": {
+        "types": "./dist/core/index.d.cts",
+        "default": "./dist/core/index.cjs"
+      }
+    },
+    "./issuer": {
+      "import": {
+        "types": "./dist/issuer/index.d.ts",
+        "default": "./dist/issuer/index.js"
+      },
+      "require": {
+        "types": "./dist/issuer/index.d.cts",
+        "default": "./dist/issuer/index.cjs"
+      }
+    },
+    "./holder": {
+      "import": {
+        "types": "./dist/holder/index.d.ts",
+        "default": "./dist/holder/index.js"
+      },
+      "require": {
+        "types": "./dist/holder/index.d.cts",
+        "default": "./dist/holder/index.cjs"
+      }
+    },
+    "./verifier": {
+      "import": {
+        "types": "./dist/verifier/index.d.ts",
+        "default": "./dist/verifier/index.js"
+      },
+      "require": {
+        "types": "./dist/verifier/index.d.cts",
+        "default": "./dist/verifier/index.cjs"
+      }
+    },
+    "./orchestrator": {
+      "import": {
+        "types": "./dist/orchestrator/index.d.ts",
+        "default": "./dist/orchestrator/index.js"
+      },
+      "require": {
+        "types": "./dist/orchestrator/index.d.cts",
+        "default": "./dist/orchestrator/index.cjs"
+      }
+    },
+    "./anoncreds": {
+      "import": {
+        "types": "./dist/anoncreds/index.d.ts",
+        "default": "./dist/anoncreds/index.js"
+      },
+      "require": {
+        "types": "./dist/anoncreds/index.d.cts",
+        "default": "./dist/anoncreds/index.cjs"
+      }
+    },
+    "./zk": {
+      "import": {
+        "types": "./dist/zk/index.d.ts",
+        "default": "./dist/zk/index.js"
+      },
+      "require": {
+        "types": "./dist/zk/index.d.cts",
+        "default": "./dist/zk/index.cjs"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE",
+    ".npmvc"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "rimraf ./dist",
+    "test": "echo \"no SDK tests yet — run the contract test suite\" && exit 0",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build",
+    "prepack": "npmvc attest --registry https://npmvc.com"
+  },
+  "dependencies": {
+    "@noble/curves": "^2.2.0",
+    "@noble/hashes": "^2.2.0",
+    "@openzeppelin/merkle-tree": "^1.0.7"
+  },
+  "peerDependencies": {
+    "ethers": "^6.13.0"
+  },
+  "optionalDependencies": {
+    "circomlibjs": "^0.1.7",
+    "snarkjs": "^0.7.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "ethers": "^6.13.4",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publisher": "did:key:z6MkhJ5YBSdBLHHJbji45kiJnRdLUDPuTVi7dP84MjSuEuco",
+  "keywords": [
+    "kanon",
+    "anoncreds",
+    "credo",
+    "ssi",
+    "did",
+    "vc",
+    "evm",
+    "besu",
+    "zero-knowledge",
+    "groth16"
+  ]
+}
